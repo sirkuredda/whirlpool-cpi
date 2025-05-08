@@ -7,6 +7,24 @@
 Cargo.toml
 ```
 [dependencies]
+anchor-lang = "=0.31.1"
+anchor-spl = "=0.31.1"
+whirlpool-cpi = { git = "https://github.com/orca-so/whirlpool-cpi", branch = "anchor/0.31.1" }
+```
+
+### with Anchor 0.31.0
+Cargo.toml
+```
+[dependencies]
+anchor-lang = "=0.31.0"
+anchor-spl = "=0.31.0"
+whirlpool-cpi = { git = "https://github.com/orca-so/whirlpool-cpi", branch = "anchor/0.31.0" }
+```
+
+### with Anchor 0.30.1
+Cargo.toml
+```
+[dependencies]
 anchor-lang = "=0.30.1"
 anchor-spl = "=0.30.1"
 whirlpool-cpi = { git = "https://github.com/orca-so/whirlpool-cpi", branch = "anchor/0.30.1" }
